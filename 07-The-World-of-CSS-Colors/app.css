@@ -1,0 +1,69 @@
+/* p {
+  color: coral;
+}
+
+a {
+  color: cyan;
+  background-color: magenta;
+}
+
+h2 {
+  color: orangered;
+  background-color: olivedrab;
+}
+
+h1 {
+  color: teal;
+  background-color: yellow;
+} */
+
+/* 49. Working with background-color */
+/* body {
+  background-color: red;
+}
+
+p {
+  change this color to something better:
+  color: magenta;
+} */
+
+/* 52. Understanding RGB Colors */
+/* body {
+  background-color: rgb(13, 2, 85);
+} */
+
+/* 53. Hexadecimal Colors */
+/* body {
+  background-color: #be0;
+} */
+
+/* 54. RGBA Colors and Opacity */
+/* body {
+  background-color: yellow;
+}
+h1 {
+  background-color: rgba(212, 0, 255, 0.279);
+}
+h2 {
+  background-color: rgba(0, 255, 255);
+  opacity: 0.5;
+} */
+
+/* 56. CSS Inheritance */
+/* li will inherit properties from ul */
+ul {
+  color: yellowgreen;
+}
+
+span {
+  color: orange;
+}
+
+div {
+  color: red;
+  border: 1px solid blue;
+}
+
+p {
+  border: inherit;
+}
