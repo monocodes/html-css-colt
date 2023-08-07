@@ -1,3 +1,4 @@
+/* Named Colors */
 /* p {
   color: coral;
 }
@@ -17,7 +18,7 @@ h1 {
   background-color: yellow;
 } */
 
-/* 49. Working with background-color */
+/* Working with background-color */
 /* body {
   background-color: red;
 }
@@ -27,17 +28,17 @@ p {
   color: magenta;
 } */
 
-/* 52. Understanding RGB Colors */
+/* Understanding RGB Colors */
 /* body {
   background-color: rgb(13, 2, 85);
 } */
 
-/* 53. Hexadecimal Colors */
+/* Hexadecimal Colors */
 /* body {
   background-color: #be0;
 } */
 
-/* 54. RGBA Colors and Opacity */
+/* RGBA Colors and Opacity */
 /* body {
   background-color: yellow;
 }
@@ -49,7 +50,7 @@ h2 {
   opacity: 0.5;
 } */
 
-/* 56. CSS Inheritance */
+/* CSS Inheritance */
 /* li will inherit properties from ul */
 ul {
   color: yellowgreen;
