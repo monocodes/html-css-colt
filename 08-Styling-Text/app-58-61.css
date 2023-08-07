@@ -1,3 +1,5 @@
+/* Changing Fonts with Fonr-Family */
+/* Font-size, font-weight and font-style */
 h1 {
   font-family: "Segou UI", Futura, sans-serif;
   font-size: 60px;
@@ -7,12 +9,14 @@ h1 {
   letter-spacing: 20px;
 }
 
+/* Changing Text Aligment */
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   /* text-align: justify; */
 }
 
+/* Line-height, letter-spacing and word-spacing */
 p {
   font-weight: bold;
   line-height: 2;
