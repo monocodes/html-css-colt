@@ -1,0 +1,22 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/* Styling Links and :hover Pseudo-Class */
+a {
+  color: olive;
+  text-decoration: none;
+}
+
+/* Style for visited links */
+a:visited {
+  color: orangered;
+}
+
+/* Style for hovered links. Can be used with anything.*/
+
+a:hover {
+  /* color: magenta; */
+  text-decoration: underline;
+  cursor: wait;
+}

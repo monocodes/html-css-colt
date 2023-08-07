@@ -1,0 +1,27 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/* The ID Selector */
+#featured {
+  background-color: gold;
+  font-size: 20px;
+}
+
+#reviews {
+  text-decoration: gold underline;
+}
+
+/* The Class Selector */
+.tag {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+/* Styling Lists */
+#cast {
+  list-style-type: "\1F44D";
+  /* list-style-type: disc; */
+  list-style-position: inside;
+}
