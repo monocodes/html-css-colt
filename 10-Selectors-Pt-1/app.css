@@ -1,0 +1,35 @@
+body {
+  font-family: Marriweather, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Descendant & Child Combinators */
+
+/* Descendant Combinator */
+/* 'space' - selects all elements nested in cast id in spans */
+#cast span {
+  color: grey;
+}
+
+/* Child Combinator */
+/* > - selects only direct nested childrens */
+ol > li {
+  border: 1px solid red;
+  /* but color is inheritade */
+  /* color: red; */
+}
+
+/* Compound Selector */
+
+/* without 'space' - selects only elements having all the attributes */
+.big.score {
+  color: blueviolet;
+}

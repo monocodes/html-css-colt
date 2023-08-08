@@ -1,0 +1,67 @@
+/* The Universal Selector */
+
+/* Often used to reset all default browser styles */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* Recap of selectors */
+p {
+  color: purple;
+}
+
+.tag {
+  color: orange;
+}
+
+#featured {
+  color: gold;
+}
+
+/* The Attribute Selector */
+
+/* style all inputs */
+/* input {
+    background-color: gold;
+} */
+
+input[type="number"] {
+  background-color: gold;
+}
+
+/* * - any element with word */
+a[href*="wiki"] {
+  color: cyan;
+}
+
+/* ^ - element that starts with */
+a[href^="#"] {
+  color: darkviolet;
+}
+
+/* $ - element that ends with */
+a[href$=".org"] {
+  color: chocolate;
+}
+
+/* Grouping Selectors */
+body {
+  font-family: Marriweather, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+}
+
+.score,
+#featured,
+.tag {
+  color: white;
+  background-color: orangered;
+}
