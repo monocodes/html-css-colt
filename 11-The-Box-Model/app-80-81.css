@@ -1,0 +1,37 @@
+/* Working with Borders */
+
+/* h1 {
+  border-width: 2px;
+  border-color: gold;
+  border-top-color: red;
+  border-right-color: orange;
+  border-bottom-color: yellow;
+  border-left-color: green;
+  border-style: solid;
+  border-bottom-style: dotted;
+  border: 2px solid green;
+  border-top-color: purple;
+  border-bottom: 3px dashed magenta;
+} */
+
+/* Width, Height and Percentages */
+
+h1 {
+  border: 2px solid olivedrab;
+  width: 500px;
+  height: 60px;
+}
+
+#container {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+.box {
+  border: 1px solid orange;
+  height: 50%;
+  width: 50%;
+}
+
+/* Adding Padding to Elements */

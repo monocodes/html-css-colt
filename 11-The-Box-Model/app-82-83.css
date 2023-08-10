@@ -1,0 +1,28 @@
+/* Adding Padding to Elements */
+/* Apply to all four sides
+  padding: 1em;
+  top and bottom | left and right
+  padding: 5% 10%;
+  top | left and right | bottom
+  padding: 1em 2em 2em;
+  top | right | bottom | left
+  padding: 5px 1em 0 2em; */
+
+/* #link {
+  font-size: 30px;
+  border: 1px solid red;
+  padding: 5px 10px 15px 20px;
+  padding: 0 20px;
+} */
+
+/* Working With Margins */
+h1 {
+  border: 1px solid salmon;
+  margin-bottom: 89px;
+  margin: 10px 20px 40px 80px;
+  margin: 20px 50px;
+}
+
+a {
+  border: 1px solid olive;
+}

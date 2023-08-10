@@ -1,0 +1,16 @@
+/* The Alternate Box Model */
+
+div {
+  background-color: purple;
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid cyan;
+  padding: 10px;
+  border: 50px solid green;
+}
+
+#alternate {
+  box-sizing: border-box;
+  border: 50px solid green;
+}
